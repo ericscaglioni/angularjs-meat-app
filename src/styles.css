@@ -261,3 +261,27 @@ body {
 .has-error-block {
   color: #dd4b39;
 }
+
+/* Barra de buscas */
+.search-link {
+  cursor: pointer;
+  color: #555;
+}
+
+.search-link:hover {
+  color: #dd4b39;
+}
+
+.search-bar {
+  opacity: 0;
+  max-height: 0px;
+}
+
+.input-search-bar {
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.input-search-bar:focus {
+  border-color: #dd4b39;
+}
